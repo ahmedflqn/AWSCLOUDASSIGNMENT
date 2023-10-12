@@ -96,12 +96,14 @@ EFS with General Purpose Mode which will be Suitable for most workloads, it offe
 
 ![enter image description here](https://github.com/ahmedflqn/AWSCLOUDASSIGNMENT/blob/main/Architecture%20diagram/CICD.png?raw=true)
 
-Continuous integration CI
+Continuous integration (CI)
+
 Developers will push code to the code repository  AWS CodeCommit
 testing and building server will check the code as soon it's pushed AWS CodeBuild
 get the results to check if the test failed or passed so we can find bugs and fix them early
 
-continuous delivery CD
+continuous delivery (CD)
+
 CodeDeploy to automate deployment to the server when the build is passed
 ensure deployments happen often and quick, Define rollback and rollforward strategies
 
